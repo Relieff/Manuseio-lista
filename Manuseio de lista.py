@@ -1,8 +1,8 @@
 #for valor in range(0, 4):
-numero = (int(input('Digite um valor:')), int(input('Digite um valor:')), int(input('Digite um valor:')),int(input('Digite um valor:')))
+numero=(int(input('Digite um valor:')), int(input('Digite um valor:')), int(input('Digite um valor:')),int(input('Digite um valor:')))
 
-pos = numero.index(3)
-rept = numero.count(9)
+pos=numero.index(3)
+rept=numero.count(9)
 
 print(f'Você digitou os números {numero}')
 print(f'O número 9 repetiu {rept} vezes')
